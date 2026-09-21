@@ -1,0 +1,19 @@
+<meta>
+    <info author="ecma" version="2.0" type="script" name="ecma Group System" description="ecma Group System v2 - Modern dxDraw UI" />
+    <script src="group_server.lua" type="server" />
+    <script src="group_client.lua" type="client" />
+    <script src="turf/turf_server.lua" type="server" />
+    <script src="turf/turf_client.lua" type="client" />
+    <export function="getGroupTurfColor" type="server" />
+    <export function="getGroupChatColor" type="server" />
+    <export function="getGroupChatTagColor" type="server" />
+    <export function="getGroupTurfPoints" type="server" />
+    <export function="setGroupTurfPoints" type="server" />
+    <export function="getClanColor" type="server" />
+    <export function="isAccountBlocked" type="server" />
+    <export function="isSerialBlocked" type="server" />
+    <export function="testSetClan" type="server" />
+    <export function="testGetClan" type="server" />
+    <export function="testListClans" type="server" />
+    <min_mta_version server="1.5.8" client="1.5.8" />
+</meta>
